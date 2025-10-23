@@ -1,0 +1,54 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo-left, .logo-right {
+  height: 10em;
+  padding: 3em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo-left, .logo-right:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+@keyframes logo-spin-left {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes logo-spin-right {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  /* left logo: typically the first link */
+  a:nth-of-type(1) .logo-left {
+    animation: logo-spin-left infinite 20s linear;
+  }
+
+  /* right logo: typically the second link */
+  a:nth-of-type(2) .logo-right {
+    animation: logo-spin-right infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
