@@ -1,0 +1,20 @@
+{
+  "name": "final-year-project",
+  "version": "1.0.0",
+  "description": "An educational app aimed at improving the maths skills of KS2 students (Children aged 7-11).",
+  "main": "App.jsx",
+  "scripts": {
+    "test": "test",
+    "start": "node start",
+    "dev": "node dev",
+    "build": "node build"
+  },
+  "keywords": [
+    "Educational",
+    "Maths",
+    "Learning",
+    "Numeracy"
+  ],
+  "author": "Harvey Lopez",
+  "license": "ISC"
+}
